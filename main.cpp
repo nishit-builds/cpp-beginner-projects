@@ -34,20 +34,25 @@ int main() {
             break;
         }
 
-        case 2: {
-            if (n < 0 || n > 20) {
-                cout << "Enter a number from 0 to 20\n";
-                break;
-            }
+      case 2: {
+    int n;
+    long long factorial = 1;
 
-            unsigned long long fact = 1;
-            for (int i = 1; i <= n; i++) {
-                fact *= i;
-            }
+    cout << "Enter a number (0 to 20): ";
+    cin >> n;
 
-            cout << "Factorial = " << fact << '\n';
-            break;
+    if (n < 0 || n > 20) {
+        cout << "Invalid number!\n";
+    } else {
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
         }
+
+        cout << "Factorial = " << factorial << endl;
+    }
+
+    break;
+}
 
         case 3: {
             long long num = n;
