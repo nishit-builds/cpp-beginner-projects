@@ -1,62 +1,97 @@
 # 🔢 C++ Number Toolkit
 
-A beginner-friendly C++ project featuring useful number operations and mathematical calculations.
+A beginner-friendly, menu-driven C++ program for performing common number operations.
 
 ## 📌 About the Project
 
-The **C++ Number Toolkit** is a console-based application created to practise C++ programming fundamentals. It brings together number-related operations in one simple program.
+The **C++ Number Toolkit** is a console-based application developed to practise fundamental C++ programming concepts. It allows users to check whether a number is prime, calculate its factorial, and reverse its digits through a simple menu.
 
 ## ✨ Features
 
-- Perform number-related calculations.
-- Practise basic mathematical operations.
-- Interact with a simple console-based program.
-- Explore fundamental C++ programming concepts.
+- **Prime Number Checker:** Determines whether a number is prime.
+- **Factorial Calculator:** Calculates the factorial of a number between 0 and 20.
+- **Number Reversal:** Reverses the digits of an integer.
+- **Menu-Driven Interface:** Allows users to select an operation using numbered options.
+- **Input Validation:** Checks the factorial input range and handles invalid menu choices.
 
 ## 🛠️ Technologies Used
 
-- **Language:** C++
-- **Concepts:** Variables, operators, conditional statements, loops, and functions (where implemented).
+- **Programming Language:** C++
+- **Header File:** `iostream`
+- **Concepts:** Variables, data types, loops, conditional statements, `switch` statements, and arithmetic operators.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
+To compile and run this project, you need:
+
 - A C++ compiler, such as GCC or MinGW.
-- A code editor or terminal.
+- A terminal or command prompt.
 
-### How to Run
+### Installation and Execution
 
-1. Clone or download this repository.
-2. Open the project source file.
-3. Compile the C++ program using your installed compiler.
+1. Download or clone this repository.
+2. Open the project folder.
+3. Compile the source file using a C++ compiler.
 4. Run the generated executable.
 
-Example commands, if your source file is named `main.cpp`:
+### Compile the Program
+
+If your source file is named `main.cpp`, use:
 
 ```bash
 g++ main.cpp -o number-toolkit
+```
+
+### Run the Program
+
+On Linux or macOS:
+
+```bash
 ./number-toolkit
 ```
 
-On Windows, run `number-toolkit.exe` after compiling.
+On Windows:
+
+```bash
+number-toolkit.exe
+```
+
+## 💻 Sample Output
+
+```text
+=== C++ Number Toolkit ===
+1. Check Prime Number
+2. Find Factorial
+3. Reverse a Number
+Enter your choice: 1
+Enter a number: 7
+Prime number
+```
 
 ## 🎯 Learning Objectives
 
-This project helps practise:
+This project demonstrates how to:
 
-- C++ syntax and program structure.
-- Working with numbers and calculations.
-- Using control flow to solve problems.
-- Writing and organising a simple console application.
+- Use basic C++ syntax and program structure.
+- Apply loops and conditional statements.
+- Perform mathematical calculations.
+- Use a `switch` statement to create a menu-driven program.
+- Validate user input for specific operations.
 
 ## 👨‍💻 Author
 
 **Nishit Shah**
 
-- GitHub: [@nishit-builds](https://github.com/nishit-builds)
-- Portfolio: [Visit my website](https://nishit-builds.github.io/personal-portfolio-website/)
+- **GitHub:** [nishit-builds](https://github.com/nishit-builds)
+- **Portfolio:** [Visit My Portfolio](https://nishit-builds.github.io/personal-portfolio-website/)
+
+## 📂 Project Repository
+
+[View C++ Number Toolkit on GitHub](https://github.com/nishit-builds/cpp-beginner-projects)
 
 ---
 
-⭐ Thanks for checking out my project!
+⭐ If you find this project useful, feel free to explore the code and learn from it.
+
