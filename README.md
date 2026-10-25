@@ -1,4 +1,3 @@
-
 # C++ Number Toolkit
 
 A beginner-friendly C++ project created by an FYBScIT student to practice programming fundamentals.
