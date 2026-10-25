@@ -1,52 +1,62 @@
-# C++ Number Toolkit
+# 🔢 C++ Number Toolkit
 
-A beginner-friendly C++ project created by an FYBScIT student to practice programming fundamentals.
+A beginner-friendly C++ project featuring useful number operations and mathematical calculations.
 
-## Features
+## 📌 About the Project
 
-- Check whether a number is prime
-- Calculate the factorial of a number
-- Reverse a number
-- Menu-driven program using a switch statement
+The **C++ Number Toolkit** is a console-based application created to practise C++ programming fundamentals. It brings together number-related operations in one simple program.
 
-## Technologies Used
+## ✨ Features
 
-- C++
-- Standard Input and Output
-- Loops and Conditional Statements
+- Perform number-related calculations.
+- Practise basic mathematical operations.
+- Interact with a simple console-based program.
+- Explore fundamental C++ programming concepts.
 
-## Concepts Practiced
+## 🛠️ Technologies Used
 
-- Variables and data types
-- If-else statements
-- Switch statements
-- For and while loops
-- Basic mathematical operations
-- User input and output
+- **Language:** C++
+- **Concepts:** Variables, operators, conditional statements, loops, and functions (where implemented).
 
-## How to Run
+## 🚀 Getting Started
 
-1. Download or clone this repository.
-2. Open `main.cpp` in a C++ editor.
-3. Compile the program using a C++ compiler.
-4. Run the compiled program and follow the menu.
+### Prerequisites
 
-## Project Structure
+- A C++ compiler, such as GCC or MinGW.
+- A code editor or terminal.
 
-cpp-beginner-projects/
-└── main.cpp
+### How to Run
 
-## About Me
+1. Clone or download this repository.
+2. Open the project source file.
+3. Compile the C++ program using your installed compiler.
+4. Run the generated executable.
 
-I am an FYBScIT student learning C++ programming and building projects to improve my coding skills.
+Example commands, if your source file is named `main.cpp`:
 
-## Future Improvements
+```bash
+g++ main.cpp -o number-toolkit
+./number-toolkit
+```
 
-- Add more mathematical operations
-- Allow users to perform multiple operations without restarting
-- Improve input validation
-- Add more beginner-friendly programs
-- 
-Created as part of my C++ learning journey.
+On Windows, run `number-toolkit.exe` after compiling.
+
+## 🎯 Learning Objectives
+
+This project helps practise:
+
+- C++ syntax and program structure.
+- Working with numbers and calculations.
+- Using control flow to solve problems.
+- Writing and organising a simple console application.
+
+## 👨‍💻 Author
+
+**Nishit Shah**
+
+- GitHub: [@nishit-builds](https://github.com/nishit-builds)
+- Portfolio: [Visit my website](https://nishit-builds.github.io/personal-portfolio-website/)
+
 ---
-Created as part of my C++ learning journey.
+
+⭐ Thanks for checking out my project!
